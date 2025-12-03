@@ -51,20 +51,18 @@ Good luck, and don't hesitate to ask questions!
 
 ### **Week 2: Monte Carlo in Geometry - Vectorization & Integration**
 
-**Objective:** This week we bridge the gap between "coding" and "scientific computing." You will learn how to use random sampling to solve math problems (calculating areas and integrals) that are hard or impossible to solve analytically. You will also learn the most important rule of Python Data Science: **No For Loops.**
+**Objective:** This week we bridge the gap between "coding" and "scientific computing" and understand what Monte Carlo simulations are by getting our hands dirty. You will learn how to use random sampling to solve math problems (calculating areas and integrals) that are hard or impossible to solve analytically. You will also learn the most important rule of Python Data Science: **No For Loops.**
 
 #### **Part 1: Learning Resources**
 
 *   **Monte Carlo Simulation (The Concept):**
     *   **Video:** [Estimating Pi using Monte Carlo Simulation](https://www.youtube.com/watch?v=ELetCV_wX_c) (5 mins). A visual introduction to the core concept of this week.
-    *   **Article:** [Monte Carlo Integration Explained](https://towardsdatascience.com/the-basics-of-monte-carlo-integration-5fe16a89cf2f). Skim through to understand how we turn random points into an area estimate.
-
-*   **Vectorization & Broadcasting (The Tool):**
-    *   **Guide:** [NumPy Broadcasting - A Visual Guide](https://jalammar.github.io/visual-numpy/). **Highly Recommended.** This explains how to do math on whole arrays at once without writing loops.
-    *   **Focus on:** Understanding how `np.array([1, 2]) + 1` works vs `np.array([1, 2]) + np.array([3, 4])`.
+    *   **Article:** [Monte Carlo Integration Explained](https://www.scratchapixel.com/lessons/mathematics-physics-for-computer-graphics/monte-carlo-methods-in-practice/monte-carlo-integration.html). Skim through to understand how we turn random points into an area estimate.
 
 *   **High Dimensions (The Challenge):**
     *   **Video:** [3Blue1Brown: Thinking about high dimensions](https://www.youtube.com/watch?v=zwAD6dRSVyI). This will help you visualize the "Hypersphere" task and understand why grids fail in high dimensions (The Curse of Dimensionality).
+
+**Note:** this week will be more on the practical side, with a longer assignment. You are encouraged to move to the assignment as soon as possible as the theoretical learning resources are scarce. Try to work through as much optional assignment tasks as you can for developing a better understanding of how and where monte carlo mehtods can be used.
 
 #### **Part 2: Assignment**
 The assignment `Week2_Geometry_Vectorization.pdf` is uploaded in the Week 2 directory.
@@ -73,7 +71,7 @@ The assignment `Week2_Geometry_Vectorization.pdf` is uploaded in the Week 2 dire
 *   **Optional:** Explore the volume of a 10-dimensional hypersphere and see how Monte Carlo beats deterministic methods in high dimensions.
 
 #### **Part 3: Submission**
-Submit your Jupyter Notebooks or Python scripts via the Google Form. Make sure your convergence plots (Log-Log plots) are visible in the notebook.
+Submission will be via a Google Form. Make sure your convergence plots are visible in the notebook. Further instructions are available in assignment pdf.
 
 ### **Week 3: Getting Started with Reinforcement Learning**
 Reinforcement Learning is an exciting field in AI and Machine Learning. It was mainly brought into spotlight by Google's Deep RL agents to play Atari Games in 2013, and then a further public milestone was their AlphaGo model to beat a professional human Go player.
