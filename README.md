@@ -23,7 +23,9 @@ Our project is a structured journey designed to take you from a beginner to the 
 
 #### **Part 1: Learning Resources**
 
-This is mainly for those new to Python, Numpy and Probability. For those who are familiar, you may directly skip to the assignment, since it will be used later. Your goal this week is to go through these high-quality tutorials. You don't need to memorize everything, but focus on understanding the core concepts. 
+This is mainly for those new to Python, Numpy and Probability. Your goal this week is to go through these high-quality tutorials. You don't need to memorize everything, but focus on understanding the core concepts. 
+
+For those who are familiar, you may directly skip to the assignment, since it will be used later. Optionally, you can learn advanced tools like JAX and Cython and use them in your assignments instead of NumPy.
 
 *   **Python Basics (for those: new to the language):**
     * **Tutorial:** ([FreeCodeCamp Tutorial video](https://www.youtube.com/watch?v=eWRfhZUzrAc))
@@ -35,7 +37,7 @@ This is mainly for those new to Python, Numpy and Probability. For those who are
     * **Tutorial** ([FreeCodeCamp Tutorial Video](https://www.youtube.com/watch?v=QUT1VHiLmmI&pp=ygUgbnVtcHkgdHV0b3JpYWwgZm9yIGJlZ2lubmVycyBmY2M%3D))
     *   **Resource:** NumPy: The absolute basics for beginners ([numpy.org](https://numpy.org/doc/stable/user/absolute_beginners.html))
     *   **Focus on:** What is a NumPy array? How do you create arrays? What is array indexing, slicing, and, most importantly, **vectorization**? This concept is the key to writing fast, modern data science code.
-    * For those who are already proficient in NumPy, look up advanced features like universal functions, Numpy strides, and array siblings.
+    * For those who are already proficient in NumPy, look up advanced features like universal functions, Numpy strides, and array siblings. Also look up advanced features such such as JIT compilation for numpy (using Numba). You can also look up other advanced tools such as JAX and Cython, and use them instead of Numpy in the assignments.
 *   **Matplotlib - Our Visualization Tool:**
     * **Tutorial** ([FreeCodeCamp Tutorial Video](https://www.youtube.com/watch?v=3Xc3CA655Y4))
     *   **Resource:** Pyplot Tutorial ([matplotlib.org](https://matplotlib.org/stable/tutorials/pyplot.html))
