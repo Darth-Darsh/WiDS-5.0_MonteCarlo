@@ -10,9 +10,26 @@ class Card():
     def __init__(self, value, suit: suit):
         self.value = value
         self.suit = suit
-    
-    def __str__(self):
-        return f"{self.value}{self.suit.value}"
+
+    def lines(self) -> list[str]:
+        width = 5
+        val = self.value
+
+        left = f"{val:<2}"
+        right = f"{val:>2}"
+
+        return [
+            "┌" + "─" * width + "┐",
+            f"│{left}{' ' * (width - len(left))}│",
+            f"│{' ' * ((width - 1)//2)}{self.suit.value}{' ' * ((width - 1)//2)}│",
+            f"│{' ' * (width - len(right))}{right}│",
+            "└" + "─" * width + "┘"
+        ]
+
+    def __str__(self) -> str:
+        return "\n".join(self.lines())
+
+
     
 class Deck():
     values_list = ["A"] + [str(i) for i in range(2, 11)] + ["J", "Q", "K"]
