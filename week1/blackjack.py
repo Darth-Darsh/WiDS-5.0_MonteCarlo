@@ -54,7 +54,7 @@ class BlackjackGame():
     def print_cards(self, cards: list[cards.Card]) -> None:
         card_lines = [card.lines() for card in cards]
         for row in zip(*card_lines):
-            print("  ".join(row))
+            print("".join(row))
 
         
     def run_match(self):
