@@ -4,11 +4,13 @@ import random
 import matplotlib.pyplot as plt
 
 def e_estimate(N):
-    x = np.random.uniform(0, 1, int(N))
-    y = np.random.uniform(0, 3, int(N))
-    inside_mask = y <= np.exp(x)
+    x = np.random.uniform(1, 2, int(N))
+    y = np.random.uniform(0, 1, int(N))
+    inside_mask = y <= 1/x
     count = np.sum(inside_mask)
-    return 1 + (3 * count / N)
+    area = count / N
+    e = 2**(1/area)
+    return e
 
 e = e_estimate(1000000)
 
